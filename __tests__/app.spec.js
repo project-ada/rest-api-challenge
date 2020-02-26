@@ -43,4 +43,20 @@ describe("app", () => {
     expect(response.type).toBe('application/json');
     expect(response.text).toBe(JSON.stringify(data));
   })
+
+  // Extra Credit
+  // ============
+  //
+  // Update the API with basic CRUD functionality for meals.
+  // For example, you could add API endpoints for:
+  //
+  // * creating meals
+  // * reading details of a meal (e.g. look up a meal by key)
+  // * updating details of a meal
+  // * destroying a meal
+  //
+  // We haven't provided any tests for this functionality.
+  // If you want to stay in the test-driven development workflow,
+  // you can write these tests yourself.
+  //
 })
